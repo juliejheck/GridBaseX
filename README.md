@@ -1,3 +1,4 @@
 # gridxbase
 
-- [ ] come up with a better name
+- [x] come up with a better name
+- [ ] download Cursor IDE
