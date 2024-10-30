@@ -11,23 +11,28 @@
                 justify-content: center;
             }
         </style>
+        <script>
+            function showGridAlert(gridName) {
+                alert(`You clicked ${gridName}`);
+            }
+        </script>
     </head>
     <body>
         <div class="container mt-4">
             <div class="row g-2">
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 1</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 2</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 3</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 1')">Grid 1</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 2')">Grid 2</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 3')">Grid 3</div></div>
             </div>
             <div class="row g-2">
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 4</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 5</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 6</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 4')">Grid 4</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 5')">Grid 5</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 6')">Grid 6</div></div>
             </div>
             <div class="row g-2">
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 7</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 8</div></div>
-                <div class="col-4"><div class="border rounded p-3 m-1 square-grid">Grid 9</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 7')">Grid 7</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 8')">Grid 8</div></div>
+                <div class="col-4"><div class="border rounded p-3 m-1 square-grid" onclick="showGridAlert('Grid 9')">Grid 9</div></div>
             </div>
         </div>
 
